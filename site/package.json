@@ -1,0 +1,11 @@
+{
+  "name": "crisp-site",
+  "private": true,
+  "description": "Crisp landing page + download",
+  "scripts": {
+    "start": "serve -l tcp://0.0.0.0:${PORT:-3000}"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}

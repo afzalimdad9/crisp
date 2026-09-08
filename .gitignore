@@ -1,0 +1,25 @@
+# Build artifacts
+build/
+.spm-cache/
+DerivedData/
+
+# XcodeGen output — regenerate with `xcodegen generate`
+*.xcodeproj
+
+# Distributables / binaries (built via tools/release.sh; hosted on the site)
+dist/
+site/Crisp.dmg
+
+# Node
+node_modules/
+
+# Secrets & local env
+.env
+*.p8
+*.provisionprofile
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
